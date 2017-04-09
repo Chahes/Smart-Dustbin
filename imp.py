@@ -2,9 +2,9 @@ import time
 import serial
 import smtplib
 import socket
-TO = ['chahes96@gmail.com']
-GMAIL_USER = 'chahes96@gmail.com'
-GMAIL_PASS = 'stanthony..'
+TO = ['toemail@host.com']
+GMAIL_USER = 'youremail@host.com'
+GMAIL_PASS = 'password'
 SUBJECT = 'Dustbin Alert!!'
 #TEXT = 'The dustbin is full. YOu Have awarded 5 points'
 ser = serial.Serial('COM6', 9600)
